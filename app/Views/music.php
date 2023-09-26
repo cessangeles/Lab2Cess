@@ -11,7 +11,7 @@
    body {
          font-family: Arial, sans-serif;
          text-align: center;
-         background-color: #f5f5f5;
+         background-color: #cdb4db;
          padding: 20px;
      }
 
@@ -28,7 +28,7 @@
      }
 
      audio {
-         width: 100%;
+         width: 80%;
      }
 
      #playlist {
@@ -39,17 +39,17 @@
      #playlist li {
          cursor: pointer;
          padding: 10px;
-         background-color: #eee;
+         background-color: #e27396;
          margin: 5px 0;
          transition: background-color 0.2s ease-in-out;
      }
 
      #playlist li:hover {
-         background-color: #C5C6C5;
+         background-color: #ea9ab2;
      }
 
      #playlist li.active {
-         background-color: #007bff;
+         background-color: #ffb4a2;
          color: #fff;
      }
     </style>
